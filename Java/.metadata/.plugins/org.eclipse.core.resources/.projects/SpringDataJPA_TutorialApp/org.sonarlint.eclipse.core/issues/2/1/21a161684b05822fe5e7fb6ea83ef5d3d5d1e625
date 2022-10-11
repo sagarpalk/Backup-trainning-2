@@ -1,0 +1,29 @@
+
+w
+java:S4684"@Replace this persistent entity with a simple POJO or DTO object.(ç¨éŸúÿÿÿÿH¨RCRITICALZVULNERABILITY
+Œ
+java:S2293>"YReplace the type specification in this constructor call with the diamond operator ("<>").(°Ù¸Í8ÛŞ½É¤0H©RMINORZ
+CODE_SMELL
+~
+java:S46845"@Replace this persistent entity with a simple POJO or DTO object.(ßø’Öüÿÿÿÿ8ÀßÅ¤0H«RCRITICALZVULNERABILITY
+‘
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(™Çá¶øÿÿÿÿ8ÛŞ½É¤0H¬RMINORZ
+CODE_SMELL
+Œ
+java:S22931"YReplace the type specification in this constructor call with the diamond operator ("<>").(¶”•š8ÛŞ½É¤0H®RMINORZ
+CODE_SMELL
+‘
+java:S2293I"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ï‚ò™øÿÿÿÿ8¨ëôÉ¤0H°RMINORZ
+CODE_SMELL
+‘
+java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(ôºÙùÿÿÿÿ8å’ØÈ¤0H²RMINORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ô‘Šîûÿÿÿÿ8ÀßÅ¤0H´RMINORZ
+CODE_SMELL
+‘
+java:S2293D"YReplace the type specification in this constructor call with the diamond operator ("<>").(’Ğ«ûûÿÿÿÿ8ÛŞ½É¤0H¶RMINORZ
+CODE_SMELL
+‘
+java:S2293*"YReplace the type specification in this constructor call with the diamond operator ("<>").(ø˜¡¿ÿÿÿÿÿ8ÛŞ½É¤0H¸RMINORZ
+CODE_SMELL

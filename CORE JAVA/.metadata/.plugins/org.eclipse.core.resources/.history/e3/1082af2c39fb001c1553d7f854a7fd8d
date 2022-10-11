@@ -1,0 +1,12 @@
+package Assignment;
+
+public class Date {
+ Date date_joining;
+ String address;
+ int pincode;
+@Override
+public String toString() {
+	return "Date [date_joining=" + date_joining + ", address=" + address + ", pincode=" + pincode + ", getClass()="
+			+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+}
+}

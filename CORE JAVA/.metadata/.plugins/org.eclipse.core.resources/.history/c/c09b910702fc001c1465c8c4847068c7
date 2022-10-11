@@ -1,0 +1,44 @@
+package customeExceptionExample2;
+
+public class AccountException extends Exception {
+	int current_balnce;
+	int withdraw_balance;
+	String name;
+
+	public AccountException() {
+		this.name = name;
+		this.current_balnce = current_balnce;
+		this.withdraw_balance = withdraw_balance;
+	}
+
+	AccountException(int current_balance, int withdraw_balnce, String name) {
+		this.name = name;
+		this.current_balnce = current_balnce;
+		this.withdraw_balance = withdraw_balance;
+	}
+
+	public int getCurrent_balnce() {
+		return current_balnce;
+	}
+
+	public void setCurrent_balnce(int current_balnce) {
+		this.current_balnce = current_balnce;
+	}
+
+	public int getWithdraw_balance() {
+		return withdraw_balance;
+	}
+
+	public void setWithdraw_balance(int withdraw_balance) {
+		this.withdraw_balance = withdraw_balance;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+}

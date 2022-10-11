@@ -1,0 +1,24 @@
+package ThrowsAndThrow;
+class UserValidation{
+	public static void validate(String n,int age)
+	{
+		if(age==18 && n.equalsIgnoreCase("Indian"))
+		{
+			System.out.println("welcome");
+		}
+		else {
+			//generate excep Explicitly
+			ArithmeticException e=new ArithmeticException();
+			NullPointerException e2=new NullPointerException();
+			throw e;
+	}
+}
+}
+
+public class ThrowAndThrowsExam {
+	public static void main(String args[]) {
+		UserValidation.validate("acdsa",18);
+	System.out.println("ends the code.....");
+		
+	}
+}

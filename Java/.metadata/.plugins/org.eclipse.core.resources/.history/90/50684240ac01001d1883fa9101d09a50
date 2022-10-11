@@ -1,0 +1,14 @@
+package Starter;
+
+public class JdbcDemo {
+
+	public static void main(String[] args) {
+		try {
+			Class.forName("c)
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

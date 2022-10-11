@@ -1,0 +1,9 @@
+
+{	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¤¯\HÕRMINORZ
+CODE_SMELL
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ü¦‚üHÖRMINORZ
+CODE_SMELL
+t
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(˜Üƒ£úÿÿÿÿH×RBLOCKERZBUG
+u
+java:S2095"OUse try-with-resources or close this "CallableStatement" in a "finally" clause.(µ¨šHØRBLOCKERZBUG

@@ -1,0 +1,18 @@
+package FunctionalInt;
+
+
+class A implements Predicate<String>
+{
+	public boolean test(String str)
+	{
+		return str.equalsIgnoreCase("Sagar");
+	}
+}
+public class builtinInterface {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

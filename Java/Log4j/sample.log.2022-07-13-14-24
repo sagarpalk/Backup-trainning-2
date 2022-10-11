@@ -1,0 +1,4 @@
+2022-07-13 14:24:46 LoginDemo [INFO] info
+2022-07-13 14:24:46 LoginDemo [WARN] warn msg
+2022-07-13 14:24:46 LoginDemo [ERROR] error msg
+2022-07-13 14:24:46 LoginDemo [FATAL] fatal error

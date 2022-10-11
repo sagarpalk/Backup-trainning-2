@@ -1,0 +1,30 @@
+package P1;
+
+public class Employee {
+	int id;
+	String name;
+	float sal;
+
+	public Employee(int id, String name) {
+		super();
+		this.id = id;
+//		this.name = name;
+		this.sal = sal;
+	}
+
+	void show() {
+		System.out.println(id + "" + "" + sal);
+	}
+
+}
+class PartTimeEmp extends Employee{
+	int fsal,enhrs,hrs_sal;
+	public PartTimeEmp(int fsal,int enhrs,int hrs,int sal) {
+		// TODO Auto-generated constructor stub
+	}
+}
+public class InheritanceExample{
+	public static void main(String args[]) {
+		
+	}
+}

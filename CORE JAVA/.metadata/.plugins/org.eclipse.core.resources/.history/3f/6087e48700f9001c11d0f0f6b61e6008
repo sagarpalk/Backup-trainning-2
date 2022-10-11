@@ -1,0 +1,49 @@
+package FunctionalInt;
+
+import java.util.Scanner;
+
+interface Shape
+{
+	void area();
+	
+}
+interface Math
+{
+	float div(int a,int b);
+}
+interface Calulation
+{
+	float squareArea(int side);
+}
+
+
+public class FunctionalInterfaceExam {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		Shape s=()->{
+			System.out.println("enter vale");
+			float r=sc.nextFloat();
+			float ans=3.12f*3*3;
+			System.out.println("Area is:"+ans);
+		};
+		s.area();
+		
+		Math m=(int a,int b)-> a/b;
+		float ans=m.div(34,2);
+		System.out.println("division is :"+ans);
+		
+		Calulation c1=()->{
+			float r=sc.nextFloat();
+			float ans3=c1.squareArea(4);
+			System.out.println("Area is:"+ans3);
+		};
+		
+	}
+	
+	
+	
+
+
+}

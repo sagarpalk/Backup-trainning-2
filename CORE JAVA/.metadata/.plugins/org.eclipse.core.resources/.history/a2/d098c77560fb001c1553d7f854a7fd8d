@@ -1,0 +1,13 @@
+package customException;
+
+public class ageAndNationality extends Exception {
+	public ageAndNationality()
+	{
+		
+	}
+	public ageAndNationality(String str)
+	{
+		
+	}
+
+}

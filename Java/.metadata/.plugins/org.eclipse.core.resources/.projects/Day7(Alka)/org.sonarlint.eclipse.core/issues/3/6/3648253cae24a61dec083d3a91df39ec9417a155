@@ -1,0 +1,15 @@
+
+g
+java:S1128"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ8ûÂ±äž0H£RMINORZ
+CODE_SMELL
+y
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Á©ÅÈûÿÿÿÿ8ûÂ±äž0H¢RMINORZ
+CODE_SMELL
+z
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(´ÓñÊ8ûÂ±äž0H¡RBLOCKERZBUG
+x	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†æ©òH”RMINORZ
+CODE_SMELL
+g
+java:S1128"5Remove this unused import 'java.io.FileOutputStream'.(˜«ªg8ûÂ±äž0H¥RMINORZ
+CODE_SMELL

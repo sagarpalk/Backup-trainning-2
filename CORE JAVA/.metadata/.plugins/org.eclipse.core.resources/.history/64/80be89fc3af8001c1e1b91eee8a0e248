@@ -1,0 +1,22 @@
+package abstraction;
+
+abstract class Game
+{
+	public void start()
+	{
+		System.out.println("Game started");
+	}
+	public void stop()
+	{
+		System.out.println("Game stopped");
+	}
+	public void run();
+}
+public class AbstarctClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

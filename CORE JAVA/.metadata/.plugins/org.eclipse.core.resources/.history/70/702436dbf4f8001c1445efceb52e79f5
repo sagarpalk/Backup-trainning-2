@@ -1,0 +1,11 @@
+package array;
+
+public class ArrayExample {
+
+	public static void main(String[] args) {
+		int arr[] = { 23, 25, 27, 30 };
+
+		
+			
+	}
+}

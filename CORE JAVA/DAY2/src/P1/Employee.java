@@ -1,0 +1,41 @@
+package P1;
+
+public class Employee {
+	int id;
+	String name;
+	float sal;
+
+	public Employee(int id, String name,int sal) {
+		super();
+		this.id = id;
+    	this.name = name;
+		this.sal = sal;
+	}
+
+	void show() {
+		System.out.println(id + " " + " " + sal);
+	}
+	
+	public static void main(String args[]) {
+		 PartTimeEmp p=new PartTimeEmp(1,"sas",2333,345,6767);	
+		 p.show();
+		 p.calSal();
+		}
+
+}
+class PartTimeEmp extends Employee{
+	int fsal,enhrs;
+	public PartTimeEmp(int id,String name,int sal,int fsal,int enhrs) {
+		super(id,name,sal);
+		this.enhrs=enhrs;
+		this.fsal=fsal;
+		
+		
+	}
+	void calSal()
+	{
+		sal=fsal*enhrs;
+	}
+	
+}
+

@@ -1,0 +1,22 @@
+package P1;
+
+public class Employee {
+	int id;
+	String name;
+	float sal;
+
+	public Employee(int id, String name) {
+		super();
+		this.id = id;
+//		this.name = name;
+		this.sal = sal;
+	}
+	void show()
+	{
+		System.out.println("id+""+""+sal);
+	}
+
+	public Employee() {
+		// TODO Auto-generated constructor stub
+	}
+}

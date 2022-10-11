@@ -1,0 +1,21 @@
+package FunctionalInt;
+
+import java.util.function.Consumer;
+
+class B implements Consumer<Float>
+{
+	public void accept(float r)
+	{
+		float ans=3.14f*r*r;
+		System.out.println("Area of circle is "+ans);
+	}
+}
+
+public class ConsumerClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

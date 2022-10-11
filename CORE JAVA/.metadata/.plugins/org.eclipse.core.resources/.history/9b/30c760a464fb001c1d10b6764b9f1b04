@@ -1,0 +1,13 @@
+package customeExceptionExample2;
+
+public class AccountException {
+	int salary;
+	String name;
+	
+	public AccountException() {
+		this.name=name;
+		this.salary=salary;
+	}
+	Ac
+	
+}

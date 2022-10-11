@@ -1,0 +1,15 @@
+
+b
+java:S1135
+"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿHôRINFOZ
+CODE_SMELL
+g	java:S125"<This block of commented-out lines of code should be removed.(åÜ°ŸHöRMAJORZ
+CODE_SMELL
+g	java:S125"<This block of commented-out lines of code should be removed.(øÄŸŒHõRMAJORZ
+CODE_SMELL
+c
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿH÷RMINORZ
+CODE_SMELL
+v
+java:S1192"GDefine a constant instead of duplicating this literal "saving" 5 times.(Â…Ê‡HíRCRITICALZ
+CODE_SMELL

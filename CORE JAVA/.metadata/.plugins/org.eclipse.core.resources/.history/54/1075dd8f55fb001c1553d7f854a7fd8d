@@ -1,0 +1,34 @@
+package ExceptionHandling;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class TryCatch {
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		
+		try {
+			//all critical code must written in try block
+			System.out.println("enter no1");
+			int arr[]=new int[3];
+			arr[0]=sc.nextInt();
+			arr[1]=sc.nextInt();
+			arr[3]=arr[0]/arr[1];
+			System.out.println(arr[3]);
+			int a = sc.nextInt();
+			System.out.println("enter no 2");
+			int b = sc.nextInt();
+			int c = a / b; //--create object of ArithmeticException
+			System.out.println("division" + c);
+		} catch (ArithmeticException e) {
+			System.out.println(e);
+			System.out.println("cannot divide by zero..");
+		}
+		catch (InputMismatchException e) {
+			System.out.println(e);
+			System.out.println("cannot divide by zero..");
+		}
+		System.out.println("run cpde....");
+
+	}
+}

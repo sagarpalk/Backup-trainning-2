@@ -1,0 +1,14 @@
+package P1;
+
+class Shape
+{
+	float ans;
+	void area(float r)
+	{
+		ans=3.14f*r*r;
+		System.out.println("Area:"+ans);
+	}
+}
+public class methodOverloading {
+
+}

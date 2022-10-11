@@ -1,0 +1,18 @@
+package aggregation;
+
+class Student
+{
+	int id;
+	String name;
+	float sal;
+	date dob;
+}
+
+public class aggrega {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package customeExceptionExample2;
+
+public class AccountException {
+	int salary;
+	String name;
+	
+}

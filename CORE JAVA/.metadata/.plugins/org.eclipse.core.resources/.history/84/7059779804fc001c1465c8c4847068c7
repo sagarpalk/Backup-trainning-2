@@ -1,0 +1,19 @@
+package customeExceptionExample2;
+
+public class checkBalance{
+	public static void check()throws ArithmeticException,NullPointerException{
+		
+}
+}
+public class Balance {
+	
+	public static void main(String[] args)  {
+		try {
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}
+}

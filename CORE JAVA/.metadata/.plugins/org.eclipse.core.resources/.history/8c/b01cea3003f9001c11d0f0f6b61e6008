@@ -1,0 +1,17 @@
+package FunctionalInt;
+
+import java.util.function.Consumer;
+
+class B implements Consumer<String>
+{
+	public void accept(String name);
+}
+
+public class ConsumerClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,9 @@
+
+v
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(’”²ÛHÄRBLOCKERZBUG
+[
+java:S1197"*Move the array designators [] to the type.(àÒÆÅûÿÿÿÿHÅRMINORZ
+CODE_SMELL
+[
+java:S1128"/Remove this unused import 'java.sql.Statement'.(ÏÖÔøHÈRMINORZ
+CODE_SMELL

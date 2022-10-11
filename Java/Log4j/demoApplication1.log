@@ -1,0 +1,8 @@
+[main] INFO  com.cybage.log4j.LoginDemo  - info
+[main] WARN  com.cybage.log4j.LoginDemo  - warn msg
+[main] ERROR com.cybage.log4j.LoginDemo  - error msg
+[main] FATAL com.cybage.log4j.LoginDemo  - fatal error
+[main] INFO  com.cybage.log4j.LoginDemo  - info
+[main] WARN  com.cybage.log4j.LoginDemo  - warn msg
+[main] ERROR com.cybage.log4j.LoginDemo  - error msg
+[main] FATAL com.cybage.log4j.LoginDemo  - fatal error

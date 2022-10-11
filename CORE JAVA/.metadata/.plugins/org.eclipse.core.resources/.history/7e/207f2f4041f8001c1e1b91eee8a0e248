@@ -1,0 +1,23 @@
+package array;
+
+public class ArrayExample {
+
+	public static void main(String[] args) {
+		int arr[] = { 23, 25, 27, 30 };
+
+		for (int i = 23; i <= 30; i++) {
+			for (int j = 0; j < arr.length; j++) {
+				if (arr[j] == 23 || arr[j] == 25 || arr[j] == 27 || arr[j] == 30) {
+
+				}else {
+					System.out.println(i + "Is not present");
+				}
+				
+			}
+
+			
+		}
+
+	}
+
+}

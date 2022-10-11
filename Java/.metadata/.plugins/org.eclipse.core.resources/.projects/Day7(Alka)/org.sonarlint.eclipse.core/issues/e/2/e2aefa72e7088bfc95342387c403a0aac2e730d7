@@ -1,0 +1,10 @@
+
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†æ©òHŞRMINORZ
+CODE_SMELL
+w
+java:S2095"DUse try-with-resources or close this "Stream" in a "finally" clause.(Œ»£Îıÿÿÿÿ8ÔÇç0H„RBLOCKERZBUG
+t
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(‰Ÿ”Í8çõˆç0HıRMINORZ
+CODE_SMELL
+m	java:S125"<This block of commented-out lines of code should be removed.(…÷æK8íà†ç0HõRMAJORZ
+CODE_SMELL

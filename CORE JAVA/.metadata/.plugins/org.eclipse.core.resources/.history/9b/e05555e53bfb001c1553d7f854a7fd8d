@@ -1,0 +1,16 @@
+package Assignment;
+
+public class Date {
+ String date_joining;
+ String address;
+ int pincode;
+ public Date() {
+	// TODO Auto-generated constructor stub
+}
+
+@Override
+public String toString() {
+	return "Date [date_joining=" + date_joining + ", address=" + address + ", pincode=" + pincode + ", getClass()="
+			+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+}
+}

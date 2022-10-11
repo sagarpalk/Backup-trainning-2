@@ -1,0 +1,8 @@
+package Assignment;
+
+public class aggregation {
+ public static void main (String args[]){
+	 Date d=new Date("2022-06-03", "Kolhapur", 416013);
+	 
+ }
+}

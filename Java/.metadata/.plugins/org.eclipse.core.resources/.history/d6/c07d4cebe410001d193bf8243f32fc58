@@ -1,0 +1,20 @@
+package com.cybage.demo;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.cybage.bean.Employee;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		//BeanFactory factory=new ClassPathXmlApplicationContext("employee.xml");
+		Employee employee=(Employee) factory.getBean("employee");
+		System.out.println(employee.getEmployeeId());
+		System.out.println(employee.getName());
+		System.out.println(employee.getSalary());
+
+		
+	}
+
+}

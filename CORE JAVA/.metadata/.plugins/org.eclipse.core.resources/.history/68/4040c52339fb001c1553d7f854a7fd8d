@@ -1,0 +1,7 @@
+package Assignment;
+
+public class Date {
+ Date date_joining;
+ String address;
+ int pincode;
+}

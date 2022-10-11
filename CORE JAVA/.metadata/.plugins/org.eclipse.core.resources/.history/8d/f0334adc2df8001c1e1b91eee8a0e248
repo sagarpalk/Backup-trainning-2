@@ -1,0 +1,39 @@
+package P1;
+
+public class Employee {
+	int id;
+	String name;
+	float sal;
+
+	public Employee(int id, String name) {
+		super();
+		this.id = id;
+//		this.name = name;
+		this.sal = sal;
+	}
+
+	void show() {
+		System.out.println(id + "" + "" + sal);
+	}
+
+}
+class PartTimeEmp extends Employee{
+	int fsal,enhrs,hrs_sal;
+	public PartTimeEmp(int fsal,int enhrs,int hrs,int hrs_sal) {
+		super();
+		this.enhrs=enhrs;
+		this.fsal=fsal;
+		this.sal=sal;
+		this.hrs_sal=hrs_sal;
+	}
+	void calSal()
+	{
+		sal=fsal+(enhrs*hrs_sal);
+	}
+	
+}
+public class InheritanceExample1{
+	public static void main(String args[]) {
+		
+	}
+}
